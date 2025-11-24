@@ -1,11 +1,7 @@
 class Customer:
-    all = []
 
-    def __init__(self, name, str):
-        self._name = None
-        self.name = name
-        Customer.all.append(self)
-
+    def __init__(self, name):
+        self._name = name
 
     @property
     def name(self):
